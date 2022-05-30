@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "./node_modules/.bin/cypress open",
+    "cy": "./node_modules/.bin/cypress",
+    "cy:open": "./node_modules/.bin/cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
